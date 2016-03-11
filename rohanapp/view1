@@ -1,0 +1,4 @@
+	<div class="working">
+				<a class="login" href="/view1"><h4>Login</h4></a><br>
+				<a class="registration" href="/view2"><h4>Registration</h4></a>
+			</div>
