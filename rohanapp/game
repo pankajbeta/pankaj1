@@ -1,0 +1,31 @@
+<div class="works">
+				<div class="test-outer">Test Outer
+				<div class="test-question"  >
+				{{data[count].q}}
+			
+
+				
+				
+				
+				</div>
+				
+					<div class="test-options" ng-init="checked=false">
+  <label>
+    <input type="checkbox" ng-model="checked" style="float:left; margin-right:10px;"> Show Answer...
+  </label>
+  <div class="showanswer" ng-show="checked" style="clear:both;">
+    {{data[count].a}}
+  </div>
+</div>
+				<div>
+				<button class="btnsuccess" ng-click="next()">Next</button>
+			
+				
+				
+				
+				
+				</div>
+				
+				</div>
+				
+			</div>
